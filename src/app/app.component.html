@@ -6,8 +6,8 @@
 
 <div class="container" *ngIf="weatherData">
   <div class="upper-data">
-    <img src="../assets/sunrise2.jpg" alt="" *ngIf="weatherData.current.temp_c>15">
-    <img src="../assets/night2.jpg" alt="" *ngIf="weatherData.current.temp_c<=15">
+    <img src="src/assets/sunrise2.jpg" alt="" *ngIf="weatherData.current.temp_c>15">
+    <img src="src/assets/night2.jpg" alt="" *ngIf="weatherData.current.temp_c<=15">
 
     <div class="weather-data">
       <div class="location">{{weatherData.location.name}}</div>
@@ -21,7 +21,7 @@
     <div class="more-info-container">
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/low-temperature.png" alt="">
+          <img src="src/assets/low-temperature.png" alt="">
           <span>Min</span>
         </div>
         <div class="info-block-value">
@@ -30,7 +30,7 @@
       </div>
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/high-temperature.png" alt="">
+          <img src="src/assets/high-temperature.png" alt="">
           <span>Max</span>
         </div>
         <div class="info-block-value">
@@ -39,7 +39,7 @@
       </div>
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/humidity.png" alt="">
+          <img src="src/assets/humidity.png" alt="">
           <span>Humidity</span>
         </div>
         <div class="info-block-value">
@@ -48,17 +48,17 @@
       </div>
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/wind.png" alt="">
+          <img src="src/assets/wind.png" alt="">
           <span>Wind</span>
         </div>
-        <div class="info-block-value">
+        <div class="info-block-value">bui
           {{weatherData.current.wind_kph
           }} km/hr
         </div>
       </div>
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/celsius.png" alt="">
+          <img src="src/assets/celsius.png" alt="">
           <span>Feels Like</span>
         </div>
         <div class="info-block-value">
@@ -67,7 +67,7 @@
       </div>
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/latency.png" alt="">
+          <img src="src/assets/latency.png" alt="">
           <span>Latency</span>
         </div>
         <div class="info-block-value">
